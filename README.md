@@ -17,3 +17,10 @@ SELECT * FROM users;
 <br>
 docker stop kudu-impala
      docker rm kudu-impala
+<br>
+
+object Hello {
+    def main(args: Array[String]) = {
+        println("Hello, world")
+    }
+}
